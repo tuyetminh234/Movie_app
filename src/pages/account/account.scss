@@ -1,0 +1,62 @@
+.account {
+    padding: 32px;
+    background: url(https://topchiase24h.com/wp-content/uploads/2021/04/hinh-nen-mat-trang-moon-1.jpeg);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.account-info {
+    background-color: #fff;
+    padding: 24px;
+}
+.account-content{
+    width: 70%;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+  
+    max-width: 960px;
+   
+}
+.form-account {
+    width: 100%;
+    
+    
+}
+.form-content {
+    
+    border-radius: 4px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.history {
+    margin-top: 40px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.account-info h1 {
+    font-size: 20px;
+    text-align: left;
+   
+}
+.account-info p {
+    font-size: 14px;
+}
+.update {
+    text-align: left;
+}
+.history {
+    background-color: #ffff;
+    margin-top: 20px;
+    height: auto;
+}
+.history h1 {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 20px;
+    padding: 24px 12px;
+}

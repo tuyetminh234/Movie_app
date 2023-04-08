@@ -1,0 +1,115 @@
+.promotion-item {
+    margin: 10px 0px;
+}
+.promotion-item-home {
+    position: relative;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    display: table;
+}
+.promotion-item-home img {
+    width: 100%;
+    height: auto;
+    display: table-cell;
+}
+.promotion-item-home a {
+    display: inline-block;
+}
+.promotion-item-home .overlay {
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.promotion-item-home .overlay:hover {
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.promotion-item-home .info {
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    top: 5px;
+}
+.promotion-item-home .info h2 {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.promotion-item-home .info p {
+    margin: 15px 0;
+    color: #ffffff;
+    line-height: 22px;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+i {
+    font-style: italic;
+}
+b, strong {
+    font-weight: 500;
+}
+.promotion-item-home .group {
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}
+.promotion .group {
+    text-align: center;
+    margin-top: 30px;
+}
+.promotion-item-home a {
+    display: inline-block;
+}
+.btn.secondary-white {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    border: 1px solid #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    line-height: 1;
+}
+.btn.secondary-white:hover{
+    background-color: rgba(180, 52, 9, 0.874);
+    color: #ffffff;
+    border: 1px solid rgba(180, 52, 9, 0.874);
+   
+}
+.promotion-item-home .decription-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.promotion {
+    margin: 0 50px;
+}
+.promotion-item-home .decription-hover span {
+    color: #ffffff;
+}

@@ -1,0 +1,168 @@
+
+.header {
+    display: flex;
+  
+
+    .navbar {
+        padding: 0 1rem;
+    }
+ }
+.header-ul {
+    display: flex;
+    padding: 0;
+     margin-bottom: 0;
+}
+.header-right {
+    padding: 30px
+}
+ul {
+    list-style: none;
+   
+
+}
+// a {
+//     font-size: 20px;
+//     color: #189a46;
+//     font-weight: 700;
+//     text-decoration: none;
+// }
+.header-ul .navbar-brand {
+    color: #189a46;
+    font-weight: 600;
+}
+.header-ul .navbar-brand:hover {
+    color:#10612d;
+}
+.account-name:hover {
+    text-decoration: none;
+  
+}
+.account-name span{
+    color: #189a46;
+}
+.account-name span:hover {
+color:#10612d;
+}
+.navbar-brand a {
+    display: flex;
+    font-size: 20px;
+    color:#189a46;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar-brand a:hover {
+    color:#10612d;
+    text-decoration: none;
+}
+.navbar-brand {
+    padding-left: 30px;
+   
+}
+.navbar-brand::after {
+    background-color:#189a46;
+    content: "";
+    display: block;
+    height: 2px;
+    transition: all .5s;
+    width: 0;
+}
+.navbar-brand:hover::after{
+   
+    width: 100%;
+}
+
+
+@media (max-width: 991px){
+    .header-ul {
+        display: inline-block; 
+    }
+}
+
+
+
+
+
+
+
+
+
+.left-content {
+    display: flex;
+}
+
+
+
+.logo {
+    align-items: center;
+    display: flex;
+  
+   
+}
+.logo-img {
+    width: 100px;
+    height: auto;
+}
+
+.logo-branch {
+    font-size: 25px;
+    font-style: italic;
+   
+}
+.logo-content {
+    margin-right: 20px;
+}
+
+.login {
+    border-radius: 10px;
+}
+// .active {
+//     color: rgba(255,0,0,.8);
+// }
+// li:first-child {
+//     color: #757575;
+//     font-size: 21px;
+//     font-weight: 700;
+// }
+// li {
+//     margin-bottom: 10px;
+//     margin-top: 10px;
+// }
+
+
+// @media (min-width: 768px){
+//     .navbar-expand-md .navbar-nav .nav-link {
+//         padding-left: .5rem;
+//         padding-right: .5rem;
+//     }
+// }
+
+// .navbar-nav .nav-link {
+//     padding-left: 0;
+//     padding-right: 0;
+// }
+// .nav-link {
+//     display: block;
+//     padding: .5rem 1rem;
+// }
+// .active {
+//     color: rgba(255,0,0,.8);
+// }
+// .prl {
+//     color: #CCC;
+//     font-size: 18px;
+//     font-weight: 500;
+//     padding: 5px 30px!important;
+//     text-transform: uppercase;
+//     transition: all .5s;
+// }
+// .prl:after {
+//     background-color: rgba(255,0,0,.8);
+//     content: "";
+//     display: block;
+//     height: 2px;
+//     transition: all .5s;
+//     width: 0;
+// }
+// .prl:after:hover {
+//     width: 100%;
+// }

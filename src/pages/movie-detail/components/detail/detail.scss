@@ -1,0 +1,52 @@
+.detail h4{
+   font-size: 30px
+}
+.time {
+    color: red;
+}
+.detail-rating{
+    display: flex;
+}
+.span-1 {
+    width: 40px;
+    height: 25px;
+    color: #fff;
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 16px;
+    min-width: 33px;
+    background: #fb4226;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.detail-info {
+    margin-bottom: 40px;
+}
+.detail-info-row {
+    
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-size: 16px;
+}
+.detail-rating {
+    margin-bottom: 10px;
+}
+span {
+    color: #696969;
+}
+
+.trailer a {
+    color: #fff;
+}
+.detail-right .booking  {
+    color: #fff;
+    background-color: #fb4226;
+    border: none;
+}
+
+.detail-right .booking:hover {
+    color: #fff; 
+    background-color: rgb(151, 39, 39)
+}

@@ -1,0 +1,87 @@
+#showTimes {
+    padding-top: 50px;
+}
+.system.active{
+    background-color: #9e9e9e;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+   margin-right: 10px;
+
+}
+.system-content{
+    width: 280px;
+    height: auto;
+}
+.system {
+    height: 70px;
+    width: 280px;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #696969;
+}
+h3::after {
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin-top: 8px;
+    content: '';
+    background-color: #f26b38;
+}
+.show-system {
+    margin-top: 30px;
+}
+.logo-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5 {
+    line-height: 1;
+    font-size: 16px;
+    color: #108f3e;
+    display: -webkit-box;
+    overflow: hidden;
+    font-weight: 500;
+    line-height: 1;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.show-dateTime {
+    margin-top: 20px;
+} 
+.show-times{
+    color: #9e9e9e;
+    width: 55%;
+    height: 45px;
+    border: 1px solid #e4e4e4;
+    cursor: pointer;
+    margin: 0px 16px 16px 0px;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: rgba(246, 246, 246, 0.5);
+}
+.show-times a {
+    font-size: 15px;
+    color: #108f3e;
+}
+.show-times a:hover {
+    text-decoration: none;
+    color: #0b6e30;
+}
+.show-times:hover {
+    background-color: rgba(160, 141, 141, 0.313);
+}
+
+@media(max-width: 992px){
+    .time-respon {
+    margin-top: 30px;
+    }
+}

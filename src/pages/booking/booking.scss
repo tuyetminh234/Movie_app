@@ -1,0 +1,107 @@
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.ticket-right {
+    width: 100%;
+    box-shadow: 0 0 5px grey;
+    background-color: #fff;
+}
+
+.border {
+    margin-left: 16px;
+    margin-right: 16px;
+    border: none;
+    height: 1px;
+   
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+}
+.padding {
+    padding: 4px 10px;
+}
+.book-h4 {
+    font-size: 16px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.167;
+    letter-spacing: 0em;
+}
+.book-info {
+    font-size: 16px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.167;
+    letter-spacing: 0em;
+}
+.book-info-h4 {
+    color: #108f3e;
+    text-align: right;
+}
+.book-style {
+    width: 100%;
+    height: 50px;
+    
+}
+.movie-img {
+    width:50%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 15px;
+   
+}
+.poster {
+   text-align: center;
+}
+.movie-name-book{
+    text-align: center;
+    color: #108f3e;
+}
+.screen {
+    border-bottom: 50px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100px;
+  width: 95%;
+  // filter: drop-shadow(4px 20px 30px rgba(235 255 255 0.5));
+  font-size: 25px;
+  color: #fff;
+}
+
+.selected {
+    width: 37px;
+    height: 37px;
+    border: 3px solid#343a40;;
+    background: #343a40;;
+    color: white;
+  
+  }
+  
+  .booked {
+    width: 37px;
+    height: 37px;
+    border: 3px solid #108f3e;
+    background: #108f3e;
+    color: black;
+  }
+  
+  .available {
+    width: 37px;
+    height: 37px;
+    border: 3px solid rgb(236, 236, 236);
+    background: rgb(236, 236, 236);
+    color: black;
+  }
+  .vip {
+    width: 37px;
+    height: 37px;
+    border: 3px solid rgb(218, 177, 14);
+    background: rgb(218, 177, 14);
+    color: black;
+  }

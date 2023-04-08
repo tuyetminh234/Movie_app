@@ -1,0 +1,25 @@
+.banner {
+    height: 600px;
+    
+}
+
+.banner-img {
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+@media (max-width: 991px){
+    .banner {
+        width: 100%;
+       height: 400px;
+    }
+  
+}
+@media(max-width: 768px){
+    .banner{
+        height: 300px;
+    }
+}
